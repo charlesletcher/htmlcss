@@ -6,7 +6,7 @@ html{
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 600px;
+    width: 800px;
     margin: 0 auto;
     border: 3px solid #931420;
     background-color: #fffded;
@@ -41,10 +41,10 @@ header h3 {
 /* the styles for the section */
 main {
 	clear: left;
-    padding-right: 30px;
-    padding-left: 30px;
+    /*padding-right: 30px;
+    padding-left: 30px;*/
 }
-main h1 {
+/*main h1 {
     font-size: 150%;
     border-top: 5px double #931420;
     border-bottom: 5px double #931420;
@@ -57,6 +57,12 @@ main h1 {
     background-color: white;
     text-align: center;
     margin-bottom: 10px;
+}*/
+main h1 {
+    font-size: 150%;
+    padding-top: 0.5em;
+    padding-bottom: 0.25em;
+    margin: 0;
 }
 main h2 {
     font-size: 130%;
@@ -86,6 +92,50 @@ main ul {
 main li {
     padding-bottom: 0.35em;
 }
+article {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-top: 2px solid #800000;
+    border-bottom: 2px solid #800000;
+}
+article img{
+    float: right;
+    margin: 10px 20px 20px;
+    border: 1px solid black;
+    padding-bottom: 0;
+}
+article h2{
+    padding-top: 0;
+}
+article h3{
+    font-size: 105%;
+    padding-bottom: 0.25em;
+}
+section {
+    width: 525px;
+    float: right;
+    padding-bottom: 20px;
+}
+section h2 {
+    color: #800000;
+}
+aside {
+    width: 215px;
+    float: right;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+aside h2 {
+    color: #800000;
+}
+aside h3 {
+    font-size: 105%;
+    padding-bottom: 0.25em;
+}
+aside img {
+    padding-bottom: 1em;
+}
+
 /*style rule to italicize and link with focus or hover*/
 a [href] :focus {
     font-style: italic;
@@ -93,6 +143,7 @@ a [href] :focus {
 a [href] :hover {
     font-style: italic;
 }
+
 /* the styles for the footer */
 footer p {
     text-align: center;
@@ -100,6 +151,7 @@ footer p {
     color: white;
     padding-top: 1em;
     padding-bottom: 1em;
+    clear: both;
 }
 * {
     margin: 0;
